@@ -3,7 +3,7 @@ NOTE: We used a train set comprising of both NPTEL and IITM English data, and in
 The baseline results(WERs) are as follows:
 
 ----------------------------------------------------------
-Tri1(7000-20) | DEV_IITM  - 16.72  | DEV_NPTEL  - 23.50 | EVAL_IITM - 16.39  | EVAL_NPTEL - 24.15   |
+Tri1(7000-20) | DEV_IITM  - 16.72  | DEV_NPTEL  - 23.50 | EVAL_IITM - 16.39  | EVAL_NPTEL - 24.15  |
 ----------------------------------------------------------
 Tri2(7000-20) | DEV_IITM  - 16.24  | DEV_NPTEL  - 22.14   |
               | EVAL_IITM - 16     | EVAL_NPTEL - 22.47   |
