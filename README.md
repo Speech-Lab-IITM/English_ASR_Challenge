@@ -8,7 +8,7 @@ The data set comprises of Indian English read speech and conversational speech d
 
 |Set|Duration(hrs)|Source|Type|
 |---|-------------|------|-----|
-|train_IITM_NPTEL| 280|IITM + NPTEL|read and converstional|
+|train_IITM_NPTEL| 280|IITM + NPTEL|read and conversational|
 |dev_IITM|6|IITM|read|
 |dev_NPTEL|5|NPTEL|conversational|
 |eval_IITM|6|IITM|read|
