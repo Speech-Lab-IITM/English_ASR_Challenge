@@ -1,4 +1,4 @@
-IIT MADRAS SPEECH LAB'S ENGLISH ASR CHALLENGE
+# IIT MADRAS SPEECH LAB'S ENGLISH ASR CHALLENGE
 
 The baseline code is based on Kaldi Chain Model. If you want to repeat the baseline or work based on it:
 
