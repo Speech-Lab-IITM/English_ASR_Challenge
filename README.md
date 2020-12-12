@@ -1,17 +1,37 @@
 # IIT MADRAS SPEECH LAB'S ENGLISH ASR CHALLENGE
 
-The baseline code is based on Kaldi Chain Model. If you want to repeat the baseline or work based on it:
+This challenge is the second ASR challenge in the series of challenges to be organized by Speech Lab, IIT Madras.
 
-1. Organise the working directory after downloading data, path file, codes and other directories required(conf,steps,utils,local)[REFER to the GITHUB repo provided 
-   to organise the working directory. Data can be eiher kept in the working directory or somewhere else, but modify the script accordingly)
-2. Make changes to path.sh and cmd.sh file according your working environment.
-3. In  run_gmm.sh, first change the paramters according to your requiremnts and working environment and run the script. 
-   The baseline script is for 7000 senones and 20 gauss. You can make changes in the script if you want to try out a different set of senones, gauss.
-   The decode happens in the background according to the original script, if you don't have sufficient computational resources, you can change the script to run 
-   normally.
-4. In run_tdnn.sh, change the parameters and according to your requiremnts and working environment and run the script.
-   You can run all steps on a CPU, but it is advisable to run STAGE 16(Network Training) on a GPU as it is quicker. Additionally, even parts of STAGE 16 up to egs      generation can be run on a CPU and then you can switch to a GPU by changing the parameter 'train_stage' in run_tdnn.sh 
-   Have a good amount of free space in your disk, as STAGE 16 generates training, validation examples that will reamain in your disk until training is completed.
+## Data Set and Baseline recipes
 
-NOTE:
-Basic knowledge of scripting, python programming and deep learning will make it easier for you to understand the steps better.   
+The data set comprises of Indian English read speech and conversational speech data along with the corresponding transcriptions. It covers genres like politics, sports, entertainment, etc. The read speech text data was crawled from newspapers, and then volunteers were asked to read them. The conversational speech data was obtained from the Computer Science and Electrical lectures of NPTEL. The read speech corpus is referred to with a suffix **_IITM_** whereas the conversational speech corpus is referred to with suffix **_NPTEL_**. The following data sets will be released as a part of this challenge
+
+|Set|Duration(hrs)|Source|Type|
+|---|-------------|------|-----|
+|train_IITM_NPTEL| 280|IITM + NPTEL|read and converstional|
+|dev_IITM|6|IITM|read|
+|dev_NPTEL|5|NPTEL|conversational|
+|eval_IITM|6|IITM|read|
+|eval_NPTEL|5|NPTEL|conversational|
+
+Lexicon, results and recipes to replicate the baseline experiments have also been made available.
+
+## How to Participate
+
+* Enroll yourself by registering on this link: [Register Now!](https://forms.gle/F9XCX3eEnCpnELyr8)
+* Registering on the above link provides access to the user license and to download the training and test data for English challenge
+
+## Challenge
+* The **eval_IITM** and **eval_NPTEL** data sets will be made available only once the submission portal is opened, i.e. on 8th of January 2021. The links to download evaluation sets will be mailed to all the registered participants.
+* All the participants are expected to submit their results on evaluation sets.
+* There will be two seperate tasks. Participants can choose to participate in either of them or both. The two tasks are:
+   * **Closed English-ASR Challenge:** Only the training data distributed as part of the challenge can be used to train the models (both acoustic and language models). Please note that you cannot use dev set data in any form while decoding the eval sets.
+   * **Open English-ASR Challenge:** You can use any external/additional data to train the acoustic and language models.
+
+## Submit results 
+Use [submission portal](https://forms.gle/ixPCoD4NoL3cz5XLA) to submit your results.
+
+* The submission portal will open on 8th of January 2021 and closes at midnight on 12th of January 2021 (midnight anywhere in the world, i.e., 12pm UTC on 12th of January 2021)
+* Submissions should include the ASR output produced by the system and a brief description of the system. Further instructions about format of the decode files to be submitted will be made available soon.
+* Participating teams can submit a maximum of 10 submissions per team
+* Results will be displayed on a leader board throughout the period that the submission site is open
