@@ -9,10 +9,10 @@
 
 user=username    #user name;   
 dumpdir=<PATH/to/dump>    #path to store features generated 
-audio_dir=<PATH/to/Audio_Files/Directory>   #complete path to the folder with all wav audio files; should be organised in train, dev, eval subfolders
+audio_dir=<PATH/to/Audio_Files/Directory>   #complete path to the folder with all wav audio files, i.e., path to downloaded folder "NPTEL_IITM_English_Challenge"
 
 # Acoustic model parameters
-data=<PATH/to/Data/Directory>   #EDITED_TODAY  #Path to your data directory
+data=<PATH/to/Data/Directory>   #Path to your data directory, i.e., path to downloaded folder "Trans_and_dict"
 train_set=<Name of your Train Folder>   #name of the train folder, e.g., "train_40" or "train"
 dev_set="DEV SET NAME"   #name of the development set/ validation set
 recog_sets="DEV AND EVAL SET NAMES"  #decode sets; we decode both dev and eval
