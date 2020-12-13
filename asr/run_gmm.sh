@@ -13,9 +13,9 @@ audio_dir=<PATH/to/Audio_Files/Directory>   #complete path to the folder with al
 
 # Acoustic model parameters
 data=<PATH/to/Data/Directory>   #Path to your data directory, i.e., path to downloaded folder "Trans_and_dict"
-train_set=<Name of your Train Folder>   #name of the train folder, e.g., "train_40" or "train"
-dev_set="DEV SET NAME"   #name of the development set/ validation set
-recog_sets="DEV AND EVAL SET NAMES"  #decode sets; we decode both dev and eval
+train_set=<Name of your Train Folder>   #name of the train folder, e.g., "train_NPTEL_IITM"
+dev_set="<DEV SET NAME>"   #name of the development set/ validation set, e.g., "dev_IITM", "dev_NPTEL"
+recog_sets="<DEV AND EVAL SET NAMES>"  #decode sets; we decode both dev and eval, e.g., "dev_IITM", "dev_NPTEL"
 tag=<Name of the experiment>     #experiment tag, so that models are not overwritten; make sure change this if running a new experiment.
 expdir=exp_${tag}     
 
