@@ -4,15 +4,15 @@ This challenge is the second ASR challenge in the series of challenges to be org
 
 ## Data Set and Baseline recipes
 
-The data set comprises of Indian English read speech and conversational speech data along with the corresponding transcriptions. It covers genres like politics, sports, entertainment, etc. The read speech text data was crawled from newspapers, and then volunteers were asked to read them. The conversational speech data was obtained from the Computer Science and Electrical lectures of NPTEL. The read speech corpus is referred to with a suffix **_IITM_** whereas the conversational speech corpus is referred to with suffix **_NPTEL_**. The following data sets will be released as a part of this challenge
+The data set comprises of Indian English read speech and sponantaneous speech data along with the corresponding transcriptions. It covers genres like politics, sports, entertainment, etc. The read speech text data was crawled from newspapers, and then volunteers were asked to read them. The spontaneous speech data was obtained from the Computer Science and Electrical lectures of NPTEL. The read speech corpus is referred to with a suffix **_IITM_** whereas the spontaneous speech corpus is referred to with suffix **_NPTEL_**. The following data sets will be released as a part of this challenge
 
 |Set|Duration(hrs)|Source|Type|
 |---|-------------|------|-----|
-|train_IITM_NPTEL| 280|IITM + NPTEL|read and conversational|
+|train_IITM_NPTEL| 280|IITM + NPTEL|read and spontaneous|
 |dev_IITM|6|IITM|read|
-|dev_NPTEL|5|NPTEL|conversational|
+|dev_NPTEL|5|NPTEL|spontaneous|
 |eval_IITM|6|IITM|read|
-|eval_NPTEL|5|NPTEL|conversational|
+|eval_NPTEL|5|NPTEL|spontaneous|
 
 Lexicon, results and recipes to replicate the baseline experiments have also been made available.
 
