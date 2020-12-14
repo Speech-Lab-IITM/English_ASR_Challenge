@@ -9,5 +9,5 @@ The baseline results(% WERs) are as follows. All the triphone models were traine
 Tri1(7000-20) | 16.72  | 23.50 |
 Tri2(7000-20) | 16.24  | 22.14 |
 Tri3(7000-20) | 15.58  | 21.70 |
-TDNN          |  6.65  | 13.08 |
+**TDNN          |  6.65  | 13.08 |**
 
