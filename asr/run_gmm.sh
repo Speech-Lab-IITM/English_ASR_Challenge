@@ -34,15 +34,12 @@ tri3=0
 
 if [ $prepare_lang -eq 1 ]; then  
 echo ============================================================================
-echo "                      Language model preparation                          "
+echo "                 Data and Language model preparation                      "
 echo ============================================================================           
 	
-	#Create scp files
-	#for x in $train_set $recog_sets; do
-	#	python steps/data/generate_wav_scp.py \
-	#	  --wav-path=$audio_dir \
-	#	  --scp-path=$data/$x || exit 1;	#EDITED_TODAY
-	#done
+	# Data preparation    
+        # Usage: data_prep_IIT.sh /home/vishwas/NPTEL_IITM_English_Challenge/Train_Dev/wav /home/vishwas/NPTEL_IITM_English_Challenge/Train_Dev/transcription_dictionary/Trans_and_dict
+        steps/data/data_prep_IIT.sh $audio_dir $data
 	
 	# Prepare language model	
 	utils/prepare_lang.sh $data/local/dictionary \
