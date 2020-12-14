@@ -11,9 +11,12 @@
 #   --> IITM/<wav files>
 #   --> NPTEL/<course ids>/<wav files>
 
+#Usage: data_prep_IIT.sh /home/vishwas/NPTEL_IITM_English_Challenge/Train_Dev/wav /home/vishwas/NPTEL_IITM_English_Challenge/Train_Dev/transcription_dictionary/Trans_and_dict
+
 audio_dir=$1  # "Absolute" path to NPTEL_IITM_English_Challenge/Train_Dev/wav
 data=$2     # "Absolute" path to NPTEL_IITM_English_Challenge/Train_Dev/transcription_dictionary/Trans_and_dict
 
+#NOTE: the files should be named "train_NPTEL_IITM", "dev_IITM" and "dev_NPTEL". If giving others names please update the arguments below.
 train_set=train_NPTEL_IITM   #train_NPTEL_IITM
 recog_sets="dev_IITM dev_NPTEL"  #"dev_IITM dev_NPTEL"
 
@@ -39,7 +42,7 @@ mkdir -p $audio_dir/NPTEL/zip
 mv $audio_dir/NPTEL/NPTEL*gz $audio_dir/NPTEL/zip/.
 rm -rf $audio_dir/NPTEL/NPTEL_*
 
-# updating wav.scp with the absolute path to downloaded wav file directory
+# updating wav.scp with the absolute path to downloaded wav file directory. Optional
 for folder in $train_set $recog_sets; do
     sed -i 's|NPTEL_IITM_English_Challenge/Train_Dev/wav|'${audio_dir}'|g' ${data}/${folder}/wav.scp
 done
