@@ -3,7 +3,7 @@
 The baseline codes are based on Kaldi HMM-GMM and Chain Model recipes. If you want to replicate the Speech Lab IITM reported baseline results, then please follow the following steps:
 
 1. Download the audio and text data using the link shared with you on registering for the challenge.
-2. Organise the working directory after downloading data, path file, codes and other directories required(conf,steps,utils,local.
+2. Organise the working directory after downloading data, path file, codes and other directories required (conf,steps,utils,local).
 3. Maintain the directory structure followed in this GITHUB repo while organizing your working directory. 
 4. The "data" folder can be either kept in the working directory or somewhere else. Just make sure that you modify the run script accordingly. Refer to 
    line 15 of run_gmm.sh and line 20 of run_tdnn.sh for better understanding.
