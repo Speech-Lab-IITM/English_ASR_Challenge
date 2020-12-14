@@ -8,7 +8,7 @@ The data set comprises of Indian English read speech and sponantaneous speech da
 
 |Set|Duration(hrs)|Source|Type|
 |---|-------------|------|-----|
-|train_IITM_NPTEL| 280|IITM(80) + NPTEL(200)|read and spontaneous|
+|train_IITM_NPTEL| 280|IITM(80 hrs) + NPTEL(200 hrs)|read and spontaneous|
 |dev_IITM|6|IITM|read|
 |dev_NPTEL|5|NPTEL|spontaneous|
 |eval_IITM|6|IITM|read|
