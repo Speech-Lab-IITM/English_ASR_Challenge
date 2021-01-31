@@ -36,7 +36,7 @@ Tri3(7000-20) | 15.58  | 21.70 |
 * Registering on the above link provides access to the user license and to download the training and test data for English challenge
 
 ## Challenge
-* The **eval_IITM** and **eval_NPTEL** data sets will be made available only once the submission portal is opened, i.e. on 28th of January 2021. The links to download evaluation sets will be mailed to all the registered participants.
+* The **eval_IITM** and **eval_NPTEL** data sets will be made available only once the submission portal is opened, i.e. on 3rd of February 2021. The links to download evaluation sets will be mailed to all the registered participants.
 * All the participants are expected to submit their results on evaluation sets.
 * There will be two seperate tasks. Participants can choose to participate in either of them or both. The two tasks are:
    * **Closed English-ASR Challenge:** Only the training data distributed as part of the challenge can be used to train the models (both acoustic and language models). Please note that you cannot use dev set data in any form while decoding the eval sets.
@@ -45,7 +45,7 @@ Tri3(7000-20) | 15.58  | 21.70 |
 ## Submit results 
 Use [submission portal](https://forms.gle/ixPCoD4NoL3cz5XLA) to submit your results.
 
-* The submission portal will open on 28th of January 2021 and closes at midnight on 1st of February 2021 (midnight anywhere in the world, i.e., 12pm UTC on 1st of February 2021)
+* The submission portal will open on 3rd of February 2021 and closes at midnight on 7th of February 2021 (midnight anywhere in the world, i.e., 12pm UTC on 7th of February 2021)
 * Submissions should include the ASR output produced by the system and a brief description of the system. Further instructions about format of the decode files to be submitted will be made available soon.
 * Participating teams can submit a maximum of 10 submissions per team
 * Results will be displayed on a leader board throughout the period that the submission site is open
