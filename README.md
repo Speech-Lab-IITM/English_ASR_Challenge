@@ -43,7 +43,7 @@ Tri3(7000-20) | 15.58  | 21.70 |
    * **Open English-ASR Challenge:** You can use any external/additional data to train the acoustic and language models.
 
 ## Submit results 
-Use [submission portal](https://forms.gle/ixPCoD4NoL3cz5XLA) to submit your results.
+Use [submission portal](https://www.iitm.ac.in/speech/NPTEL/audio_ab/) to submit your results.
 
 * The submission portal will open on 3rd of February 2021 and closes at midnight on 7th of February 2021 (midnight anywhere in the world, i.e., 12pm UTC on 7th of February 2021)
 * Submissions should include the ASR output produced by the system and a brief description of the system. Further instructions about format of the decode files to be submitted will be made available soon.
